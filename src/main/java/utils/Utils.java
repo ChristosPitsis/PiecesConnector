@@ -62,8 +62,6 @@ public class Utils {
         for (int i = 0; i < a.length(); i++) {
             if (a.charAt(i) == startingB) {
                 if (b.startsWith(a.substring(i))) {
-                    //System.out.println("String: " + b + " starts with: " + a.substring(i));
-                    //System.out.println("String: " + b + " can merge with: " + a);
                     return a.substring(0, i) + b;
                 }
             }
