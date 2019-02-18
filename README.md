@@ -1,7 +1,7 @@
 # OddsChecker Java Test
 
 ## Clone the project
-git clone https://github.com/ChristosPitsis/PiecesConnector.git
+git clone https://github.com/ChristosPitsis/PiecesConnector.git</br>
 cd PiecesConnector/
 
 ## Build
