@@ -3,10 +3,10 @@ package utils;
 public class Utils {
 
     /**
+     * <p>This is used to return the point name as a String
+     * to be used by the graph</p>
      * @param index
      * @return index as a string
-     * @desc This is used to return the point name as a String
-     * to be used by the graph
      */
     public String getPointFromIndex(Integer index) {
 
@@ -14,10 +14,10 @@ public class Utils {
     }
 
     /**
+     * <p>This is used to return the index in the list
+     * using the point name</p>
      * @param point
      * @return point as an index
-     * @desc This is used to return the index in the list
-     * using the point name
      */
     public Integer getIndexFromPoint(String point) {
 
@@ -25,11 +25,11 @@ public class Utils {
     }
 
     /**
+     * <p>This is used to check if one string can merge with another
+     * and how many characters is their merge weight</p>
      * @param a
      * @param b
      * @return merge weight
-     * @desc This is used to check if one string can merge with another
-     * and how many characters is their merge weight
      */
     public Integer canExtend(String a, String b) {
 
@@ -49,6 +49,12 @@ public class Utils {
         return 0;
     }
 
+    /**
+     * <p>This is used to merge string a to string b</p>
+     * @param a
+     * @param b
+     * @return merge weight
+     */
     public String mergeString(String a, String b) {
 
         // We will merge a to b, so we just need to remove the duplicate characters

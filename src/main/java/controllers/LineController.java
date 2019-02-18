@@ -16,6 +16,12 @@ public class LineController {
 
     private static Utils utils = new Utils();
 
+    /**
+     * <p>The method that processes a list of pieces
+     * and returns the original document</p>
+     * @param  inputList: the list of all the pieces
+     * @return originalDocument: String of the original document
+     */
     public String processLine(List<String> inputList) {
 
         // Lets initialize connectionController with the list, like a stateful bean

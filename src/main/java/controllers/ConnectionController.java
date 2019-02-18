@@ -16,6 +16,12 @@ public class ConnectionController {
         this.piecesList = piecesList;
     }
 
+    /**
+     * <p>This method returns a Piece Object for a specific element of the list
+     * with all the possible connections from and to that piece</p>
+     * @param pieceIndex
+     * @return a Piece Object
+     */
     public Piece findConnectionsForPiece(Integer pieceIndex) {
 
         Piece piece = new Piece(this.piecesList.get(pieceIndex));
@@ -45,6 +51,13 @@ public class ConnectionController {
         return piece;
     }
 
+    /**
+     * <p>This method returns a Connection Object
+     * if string a can connect to b, how and the "merge weight"</p>
+     * @param a
+     * @param b
+     * @return a Connection type Object
+     */
     private Connection checkMerge(String a, String b) {
 
         // First check if a can extend b
